@@ -1,0 +1,20 @@
+# Runtime files
+application/logs/*
+!application/logs/index.html
+application/cache/*
+!application/cache/index.html
+!application/cache/sessions/
+application/cache/sessions/*
+!application/cache/sessions/index.html
+
+# Submission files: send these through the form, don't commit them
+transcript*.json
+ses_*.json
+*.zip
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

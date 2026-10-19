@@ -1,0 +1,3 @@
+# Keep these files byte-identical on every OS
+opencode.json text eol=lf
+*.sql text eol=lf

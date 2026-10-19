@@ -1,0 +1,7 @@
+{
+  "model": "opencode/space-bunny-free",
+  "policies": [
+    { "action": "provider.use", "resource": "*", "effect": "deny" },
+    { "action": "provider.use", "resource": "opencode", "effect": "allow" }
+  ]
+}
